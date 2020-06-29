@@ -75,8 +75,8 @@ Raw scoring function of the samples. Compute the similarity value.
 The data array.
 
 **Return**
-- **y_pred: *ndarray* of shape (n_samples, )**
-Class labels for samples in *X*.
+- **score_samples: *ndarray* of shape (n_samples, )**
+Returns the scoring function of the samples (i.e. the similarity value).
 
 
 ## Algorithm
