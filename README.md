@@ -7,7 +7,12 @@ OCKRA has been designed with the aim of improving the detection performance in t
 
 ## Usage
 
-A practical example about how to use OCKRA can be seen in Example.py.
+A practical example about how to use OCKRA can be seen in [Example](https://github.com/Miel15/OCKRA-classifier/tree/master/Example).
+
+
+## Requirements
+
+Python 3, Scikit-learn, Pandas, Numpy
 
 
 ## User Guide
