@@ -87,10 +87,10 @@ Class labels for samples in *X*.
         * *N*: number of classifiers in the ensemble;
         * *k*: clusters obtained using k-means++.
    * **Local Variables:**
-	   * *SelectedFeatures*: randomly-selected features;
-	   * *T'*: projected dataset *T* over the randomly-selected features;
-	   * *Centres*: centers of the *k* clusters obtained using k-means++;
-	   * *δ<sub>i</sub>*:  average distance between all objects in *T'*.
+        * *SelectedFeatures*: randomly-selected features;
+        * *T'*: projected dataset *T* over the randomly-selected features;
+        * *Centres*: centers of the *k* clusters obtained using k-means++;
+        * *δ<sub>i</sub>*:  average distance between all objects in *T'*.
     * **Output:**
         * *P*: the set of classifiers parameters (randomly-selected features, the centroids of each cluster and the distance threshold).
     * **Start**:
@@ -111,8 +111,8 @@ Class labels for samples in *X*.
         * *O*: object to be classified;
         * *P*: the set of parameters computed in the training phase.
    * **Local Variables:**
-	   * *O'*: projected object *O* over the randomly-selected features;
-	   * *d<sub>min</sub>*:  the nearest cluster to *O′* (smallest Euclidean distance between the selecting centroid and the object *O'*).
+        * *O'*: projected object *O* over the randomly-selected features;
+        * *d<sub>min</sub>*:  the nearest cluster to *O′* (smallest Euclidean distance between the selecting centroid and the object *O'*).
     * **Output:**
         * *s*: similarity value (zero indicates an anormal behaviour and one represents normal behavior).
     * **Start:**
