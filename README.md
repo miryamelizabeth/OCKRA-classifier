@@ -91,9 +91,9 @@ Class labels for samples in *X*.
         * *T'*: projected dataset *T* over the randomly-selected features;
         * *Centres*: centers of the *k* clusters obtained using k-means++;
         * *δ<sub>i</sub>*:  average distance between all objects in *T'*.
-    * **Output:**
+   * **Output:**
         * *P*: the set of classifiers parameters (randomly-selected features, the centroids of each cluster and the distance threshold).
-    * **Start**:
+   * **Start**:
         1. Set *P* initially empty; i.e., *P* ← {}
         2. **for** *i*= 1..*N* **do**:
 	        1. *SelectedFeatures*  ← RandomFeatures(T)
@@ -113,9 +113,9 @@ Class labels for samples in *X*.
    * **Local Variables:**
         * *O'*: projected object *O* over the randomly-selected features;
         * *d<sub>min</sub>*:  the nearest cluster to *O′* (smallest Euclidean distance between the selecting centroid and the object *O'*).
-    * **Output:**
+   * **Output:**
         * *s*: similarity value (zero indicates an anormal behaviour and one represents normal behavior).
-    * **Start:**
+   * **Start:**
         1. Let *s* ← 0 be the similarity value computed by the classifiers
         2. **for each** (*Features<sub>i</sub>*, *Centres<sub>i</sub>*, *δ<sub>i</sub>*) **in** *P* **do**:
             1. *O'* ← Project(*O*, *Features<sub>i</sub>*)
