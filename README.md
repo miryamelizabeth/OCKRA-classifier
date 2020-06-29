@@ -101,7 +101,6 @@ Class labels for samples in *X*.
 	        3. *Centres* ← ApplyKMeansAndComputeCentres(*T′*)
 	        4. *δ<sub>i</sub>* ← AvgDistances(*T′*)
 	        5. *P* ← *P* U { (*SelectedFeatures*, *Centres*, *δ<sub>i</sub>* ) }
-	        6. *P*←*P*U{(*T<sub>i</sub>*, *δ<sub>i</sub>* )}
         3. **end for**
         4. **return** *P*
 
